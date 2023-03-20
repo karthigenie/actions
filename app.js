@@ -10,7 +10,7 @@ var log = function(entry) {
 var server = http.createServer(function (req, res) {
     if (req.method === 'POST') {
         var body = '';
-
+        var test =''
         req.on('data', function(chunk) {
             body += chunk;
         });
